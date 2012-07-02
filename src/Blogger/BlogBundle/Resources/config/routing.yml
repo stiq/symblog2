@@ -1,8 +1,8 @@
 BloggerBlogBundle_homepage:
-    pattern: /
+    pattern:  /
     defaults: { _controller: BloggerBlogBundle:Page:index }
     requirements:
-        _method: GET
+        _method:  GET
 
 BloggerBlogBundle_about:
     pattern:  /about
